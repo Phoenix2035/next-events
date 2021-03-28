@@ -4,13 +4,12 @@
   justify-content: space-between;
   align-items: baseline;
   padding: 1rem 10%;
-  height: 5rem;
+  height: 3.5rem;
   background-color: #202020;
 }
 
 .logo {
   font-size: 1.5rem;
-  color: white;
   font-family: 'Fira', sans-serif;
   height: 100%;
   display: flex;
