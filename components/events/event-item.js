@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import classes from "../../styles/event-item.module.css";
 import Button from "../ui/button";
 import DateIcon from "../icons/date-icon";
@@ -16,7 +18,7 @@ function EventItem({id, title, location, date, image}) {
 
     return (
         <li className={classes.item}>
-            <img src={`/${image}`} alt={title}/>
+            <Image src={`/${image}`} alt={title} width={250} height={200}/>
             <div className={classes.content}>
                 <div>
                     <h2>{title}</h2>
